@@ -34,9 +34,3 @@ copy:
 	scp ./bin/sph.out pi1:~/
 	scp ./bin/sph.out pi2:~/
 	scp ./bin/sph.out pi3:~/
-	scp ./bin/sph.out pi4:~/
-	scp ./bin/sph.out pi5:~/
-	scp ./bin/sph.out pi6:~/
-	scp ./bin/sph.out pi7:~/
-	scp ./bin/sph.out pi8:~/
-	scp ./bin/sph.out pi9:~/
