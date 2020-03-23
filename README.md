@@ -29,7 +29,7 @@ It is assumed that the XCode toolchain has been installed, this is freely availa
 
 On the RaspberryPi the following packages must be installed, all of which are availble through apt-get. If you used the TinySetup scripts these should already be installed
 
-    $ sudo apt-get install mpich
+    $ sudo apt-get install openmpi-bin
     $ sudo apt-get install libglew-dev
 
 ## Compile and run
