@@ -58,7 +58,7 @@ void compile_shader(GLuint shader, const char *file_name)
     // Read shader source from file_name
     FILE *fh = fopen(file_name, "r");
     if(!fh) {
-        printf("Error: Failed to open shader\n");
+        printf("Error: Failed to open shader %s\n",file_name);
     }
     struct stat statbuf;
     stat(file_name, &statbuf);
